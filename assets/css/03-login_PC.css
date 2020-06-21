@@ -1,0 +1,27 @@
+@charset "utf-8";
+header{display: block; width: 100%; height: 100px; border-bottom: 1px solid #999999;}
+header .left {float: left; padding: 25px 0 33px 70px;}
+header h1 a {display: block; width: 280px; height: 60px; background: url(../images/로고.png) no-repeat; color: transparent;}
+header > ul {float: right; padding: 55px 215px 55px 0;}
+header > ul li {display: inline-block; font-size: 14px; color: #f15a22; text-decoration: none; font-weight: 700;}
+header > ul a {font-size: 14px; color: #f15a22; text-decoration: none; font-weight: 700;}
+.login_section{display: flex; flex-flow: row; justify-content: center; align-items: center; width: 100%; height: 600px; background: #f4f5fa;}
+.login_section .login_wrap{display: flex; flex-flow: column; justify-content: center; align-items: center; width: 1200px; height: 480px; border: 1px solid #999999;  border-radius: 10px; background: white;}
+.login_section h3{width: 500px; height: 45px; font-size: 25px; font-weight: 550;}
+.login_section .login{width: 500px; height: 60px;}
+.login_section #input{border: 1px solid #999999; margin-bottom: 5px; border-radius: 3px;}
+.login_section #let_go{margin-bottom: 30px; background: #e50014; border: none; color: white; font-size: 18px;}
+.login_section #option{display: flex; flex-flow: row;}
+.login_section #option div{display: flex; flex-direction: row; justify-content: center; align-items: center; width: 48%; height: 100%; border: 1px solid #999999;}
+.login_section #option .sign_up{margin-right: 2.5%;}
+footer{display: flex; flex-flow: row wrap; background-color: #151515; width: 100%; height: 408px; font-weight: bold;}
+footer .footer_info{display: flex; flex-flow: row wrap; justify-content: center; align-items: center; width: 100%; height: 268px; font-size: 14px;}
+footer .footer_info div{padding: 0 80px 0 80px;}
+footer .footer_info h3{color: white; padding-bottom: 25px;}
+footer .footer_info li{color: #999999; padding-bottom: 10px;}
+footer .copyright{display: flex; flex-flow: column wrap; align-items: center; width: 100%; height: 140px; color: #999999;}
+footer .copyright ul{width: 100%;}
+footer .copyright li{display: flex; justify-content: center; align-items: center;}
+footer .copyright .col_01{height: 50px; font-size: 14px;}
+footer .copyright .col_02{height: 90px; border-top: 1px solid #666666; font-size: 14px; opacity: 0.5;}
+  
