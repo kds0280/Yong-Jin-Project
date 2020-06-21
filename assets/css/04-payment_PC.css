@@ -1,0 +1,37 @@
+@charset "utf-8";
+header{display: block; width: 100%; height: 100px; border-bottom: 1px solid #999999;}
+header .left {float: left; padding: 25px 0 33px 70px;}
+header h1 a {display: block; width: 280px; height: 60px; background: url(../images/로고.png) no-repeat; color: transparent;}
+header > ul {float: right; padding: 55px 215px 55px 0;}
+header > ul li {display: inline-block; font-size: 14px; color: #f15a22; text-decoration: none; font-weight: 700;}
+header > ul a {font-size: 14px; color: #f15a22; text-decoration: none; font-weight: 700;}
+.order_section{display: flex; flex-flow: row wrap; justify-content: center; align-items: center; width: 100%; height: 850px;}
+.order_section .wrap{display: flex; flex-flow: row wrap; justify-content: center; align-items: center; width: 1200px; height: 700px;}
+.order_section .wrap .order_tit{display: flex; flex-flow: row wrap; align-items: center; width: 100%; height: 80px; font-size: 30px; font-weight: 600; border-bottom: 1px solid #999999; margin-bottom: 20px;}
+.order_section .info{width: 620px; height: 100%; margin-right: 50px; border: 1px solid #999999;}
+.order_section .info_wrap{margin: 20px;}
+.order_section .info .order_info{width: 100%; height: 200px; border-bottom: 1px solid #999999;}
+.order_section .info .order_info .photo{margin-top: 25px; color: transparent; width: 110px; height: 88px; background: url(../images/구매강의사진.png);}
+.order_section .info .contact_info{padding-top: 20px; width: 100%; height: 300px;}
+.order_section .info .detail{width: 100%; height: 600px; padding: 0 0 20px 0;}
+.order_section .info .detail .tit{font-size: 25px; font-weight: 600; margin: 0px 0 20px 0;}
+.order_section .info .detail .sub_tit{margin-bottom: 10px;}
+.order_section .info .detail .txt{width: 100%; height: 45px; border: 1px solid #999999; border-radius: 3px; margin-bottom: 15px;}
+.order_section .check_order{width: 400px; height: 60%; border: 4px solid #999999;}
+.order_section .check_wrap{margin: 20px;}
+.order_section .final_info .tit{display: flex; height: 50px; flex-flow: row; align-items: center; border-bottom: 1px solid #999999; margin-bottom: 20px;}
+.order_section .final_info .tit div{width: 50%;}
+.order_section .final_info .txt{text-align: end;}
+.order_section .final_info .sub_tit{font-size: 15px;}
+.order_section .final_info .payment{width: 100%; height: 50px; background: #cc0000; color: white; border: none;}
+footer{display: flex; flex-flow: row wrap; background-color: #151515; width: 100%; height: 408px; font-weight: bold;}
+footer .footer_info{display: flex; flex-flow: row wrap; justify-content: center; align-items: center; width: 100%; height: 268px; font-size: 14px;}
+footer .footer_info div{padding: 0 80px 0 80px;}
+footer .footer_info h3{color: white; padding-bottom: 25px;}
+footer .footer_info li{color: #999999; padding-bottom: 10px;}
+footer .copyright{display: flex; flex-flow: column wrap; align-items: center; width: 100%; height: 140px; color: #999999;}
+footer .copyright ul{width: 100%;}
+footer .copyright li{display: flex; justify-content: center; align-items: center;}
+footer .copyright .col_01{height: 50px; font-size: 14px;}
+footer .copyright .col_02{height: 90px; border-top: 1px solid #666666; font-size: 14px; opacity: 0.5;}
+  
