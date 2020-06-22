@@ -1,10 +1,5 @@
 @charset "utf-8";
-header{display: flex; flex-flow: row; align-items: center; width: 100%; height: 100px; border-bottom: 1px solid #999999;}
-header .left {padding: 0 0 0 70px;}
-header h1 a {display: block; width: 280px; height: 60px; background: url(../images/로고.png) no-repeat; color: transparent;}
-header > ul {display: flex; flex-direction: row-reverse; width: 1000px; padding: 0 215px 0 0;}
-header > ul li {display: inline-block; font-size: 14px; color: #f15a22; text-decoration: none; font-weight: 700; padding-right: 5px;}
-header > ul a {font-size: 14px; color: #f15a22; text-decoration: none; font-weight: 700;}
+
 .banner_section .banner {display: block; width: 100%; height: 600px; background: url(../images/banner1.jpg) no-repeat; color: transparent; top: 126px;}
 .info_section{display: flex; flex-flow: row wrap ; width: 100%; height: 395px; margin: 60px 0 60px 165px; }
 .info_section h2{width: 100%; font-weight: bold; font-size: large;}
@@ -25,14 +20,3 @@ header > ul a {font-size: 14px; color: #f15a22; text-decoration: none; font-weig
 .ad_section .sub_ad .up{font-size: 18px; padding-bottom: 13px;} 
 .ad_section .sub_ad .down{font-size: 32px; font-weight: bold;} 
 .ad_section .sub_ad .side{font-size: 26px;}
-footer{display: flex; flex-flow: row wrap; background-color: #151515; width: 100%; height: 408px; font-weight: bold;}
-footer .footer_info{display: flex; flex-flow: row wrap; justify-content: center; align-items: center; width: 100%; height: 268px; font-size: 14px;}
-footer .footer_info div{padding: 0 80px 0 80px;}
-footer .footer_info h3{color: white; padding-bottom: 25px;}
-footer .footer_info li{color: #999999; padding-bottom: 10px;}
-footer .copyright{display: flex; flex-flow: column wrap; align-items: center; width: 100%; height: 140px; color: #999999;}
-footer .copyright ul{width: 100%;}
-footer .copyright li{display: flex; justify-content: center; align-items: center;}
-footer .copyright .col_01{height: 50px; font-size: 14px;}
-footer .copyright .col_02{height: 90px; border-top: 1px solid #666666; font-size: 14px; opacity: 0.5;}
-  
