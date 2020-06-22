@@ -30,7 +30,8 @@
 .view_section .info_desc li{margin: 0 0 15px 30px; list-style: disc;}
 .view_section .info_desc .tit{margin-right: 18px; font-size: 14px;}
 .view_section .info_desc .txt{font-size: 15px; font-weight: 545;}
-.view_section .info_desc .subscribe{display: inline-block; width: 130px; height: 90px; font-size: 20px; font-weight: 550; border-radius: 10px; border: none; background: #e50014; color: seashell;}
+.view_section .info_desc .subscribe{display: inline-block; width: 130px; height: 90px; font-size: 20px; font-weight: 550; border-radius: 10px; border: none; background: #e50014; }
+.view_section .info_desc a{text-decoration: none; color: seashell;}
 .view_section .info_desc_add{height: 55px; border: 1px solid #dddddd; display: flex; justify-content: center; align-items: center; text-align: center;}
 .view_section .info_desc_add li{width: 33.3%; display: inline-block; }
 .view_section .info_desc_add span{display: inline-block; width: 49%;}
