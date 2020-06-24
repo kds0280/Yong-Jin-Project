@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="./assets/css/00-header_footer_PC.css">
   <link rel="stylesheet" href="./assets/css/04-sign_up_PC.css">
   <link rel="stylesheet" href="mobile_main.css" media="all and (min-width:320px) and (max-width:768px)">
-
+  <script type="text/javascript" src="./assets/js/04-sign_up_PC.js"></script>
 </head>
 
 <body>
@@ -41,7 +41,7 @@
                 <p>아이디*</p>
               </td>
               <td>
-                <input type="text">
+                <input type="text" id="id">
               </td>
             </tr>
             <tr class="info">
@@ -49,7 +49,7 @@
                 <p>이메일*</p>
               </td>
               <td>
-                <input type="email">
+                <input type="email" id="email">
               </td>
             </tr>
             <tr class="info">
@@ -57,7 +57,7 @@
                 <p>비밀번호*</p>
               </td>
               <td>
-                <input type="password">
+                <input type="password" id="password">
               </td>
             </tr>
             <tr class="info">
@@ -65,7 +65,7 @@
                 <p>비밀번호 확인*</p>
               </td>
               <td>
-                <input type="password">
+                <input type="password" id="check_password">
               </td>
             </tr>
             <tr class="info">
@@ -73,11 +73,11 @@
                 <p>핸드폰 번호*</p>
               </td>
               <td>
-                <input>
+                <input type="number" id="cell_phone">
               </td>
             </tr>
           </table>
-          <div class="finished_sign_up">
+          <div class="finished_sign_up" onclick="to_check()">
             <input type="submit" value="회원가입">
           </div>
         </div>

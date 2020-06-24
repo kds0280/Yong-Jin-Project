@@ -44,7 +44,8 @@
 .detail_section .detail_warp{display: flex; flex-flow: column; width: 1200px; height: 430px; }
 .detail_section .content_choose{display: flex; flex-flow: row; align-items: center;width: 100%; height: 60px; text-align: center; border-bottom: 1px solid #999999; margin-bottom: 50px;}
 .detail_section .content_choose li{width: 50%; height: 100%; display: inline-block; padding-top: 25px;}
-.detail_section .summary{ border-top: 2px solid #ff7500;}
+.detail_section .summary{border-top: 2px solid #ff7500; font-size: 18px; font-weight: 600;}
+.detail_section .subscribe{color: #999999;}
 .detail_section .info_desc{display: flex; flex-direction: column; justify-content: center; width: 100%; height: 320px; border: 1px solid #999999; border-top: 2px solid black;}
 .detail_section .info_desc p{padding-bottom: 5px; font-size: 15px;}
 .detail_section .info_desc_txt{padding-left: 30px;}

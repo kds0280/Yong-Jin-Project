@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./assets/css/00-header_footer_PC.css">
   <link rel="stylesheet" href="./assets/css/05-payment_PC.css">
   <link rel="stylesheet" href="mobile_main.css" media="all and (min-width:320px) and (max-width:768px)">
+  <script type="text/javascript" src="./assets/js/05-payment_PC.js"></script>
 </head>
 
 <body>
@@ -41,11 +42,11 @@
               <div class="contact_info">
                 <div class="tit">연락처 정보</div>
                 <div class="sub_tit">받으시는 분</div>
-                <input class="txt">
+                <input class="txt" id="customer">
                 <div class="sub_tit">휴대폰 번호</div>
-                <input class="txt">
+                <input class="txt" id="cell_phone">
                 <div class="sub_tit">배송 메모</div>
-                <input class="txt">
+                <input class="txt" id="delivery_memo">
               </div>
             </div>
           </div>
@@ -74,7 +75,7 @@
                 </div>
                 <div class="txt">55,000원</div>
               </div>
-              <button class="payment"><a href="http://kds0280start.dothome.co.kr/06-pay_result.html">결제하기</a></button>
+              <button class="payment" onclick="to_check()">결제하기</button>
             </div>
           </div>
         </div>

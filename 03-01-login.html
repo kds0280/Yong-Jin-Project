@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./assets/css/00-header_footer_PC.css">
   <link rel="stylesheet" href="./assets/css/03-01-login_PC.css">
   <link rel="stylesheet" href="mobile_main.css" media="all and (min-width:320px) and (max-width:768px)">
+  <script type="text/javascript" src="./assets/js/03-01-login_PC.js"></script>
 </head>
 
 <body>
@@ -28,15 +29,15 @@
     <section class="login_section">
       <div class="login_wrap">
         <h3>로그인</h3>
-        <input type="text" placeholder="아이디">
-        <input type="password" placeholder="비밀번호">
-        <input type="submit" value="로그인">
+        <input type="text" placeholder="아이디" id="id">
+        <input type="password" placeholder="비밀번호" id="password">
+        <input type="submit" value="로그인" onclick="check_blank()">
         <ul class="login">
           <li class=" sign_up">
-            <a href="">회원가입</a>
+            <a href="http://kds0280start.dothome.co.kr/04-sign_up.html">회원가입</a>
           </li>
           <li class="find">
-            <a href="">아이디/비밀번호 찾기</a>
+            <a href="">비밀번호 찾기</a>
           </li>
         </ul>
       </div>

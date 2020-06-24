@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./assets/css/00-header_footer_PC.css">
   <link rel="stylesheet" href="./assets/css/02-sub_PC.css">
   <link rel="stylesheet" href="mobile_sub.css" media="all and (min-width:320px) and (max-width:768px)">
+  <script type="text/javascript" src="./assets/js/02-sub_page_PC.js"></script>
 </head>
 
 <body>
@@ -94,11 +95,11 @@
     <section class="detail_section">
       <div class="detail_warp">
         <ul class="content_choose">
-          <li class="summary">요약 정보</li>
-          <li class="subscribe">구독 후 문의</li>
+          <li class="summary" id="no" onclick="summary_info(this)">요약 정보</li>
+          <li class="subscribe" id="nono" onclick="subscribe(this)">구독 후 문의</li>
         </ul>
         <div class="info_desc">
-          <div class="info_desc_txt">
+          <div class="info_desc_txt" id="chage_text">
             <p>1. 시장 분석</p>
             <p>2. 기술적 분석</p>
             <p>3. 주가 분석</p>
